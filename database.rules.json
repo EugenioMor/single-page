@@ -1,0 +1,14 @@
+{
+  "rules": {
+    ".read": true,
+    "notes": {
+      "$noteid": {
+        ".write": "auth.uid == newData.child('uid').val()",
+        ".validate": "newData.hasChildren(['author', 'text'])
+           && newData.child('author').val().length > 0
+           && newData.child('text').val().length > 0"
+      }
+    }
+  
+  }
+}

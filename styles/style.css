@@ -1,0 +1,296 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("../img/soccer-background.jpg") center fixed;
+}
+
+thead,
+td {
+    color: #fff;
+    font-weight: bold;
+}
+
+label {
+    color: #fff;
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        background: url("../img/imagen-fondo.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .upcoming,
+    .icons,
+    h4,
+    .h2-login,
+    p,
+    thead,
+    td,
+    label,
+    div.icons a {
+        color: black;
+        font-weight: bold;
+    }
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h4 {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.navbar-collapse a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: rgb(39, 165, 14);
+    border-radius: 7px;
+}
+
+.menu {
+    margin-left: 140px;
+    margin-top: 150px;
+}
+
+.card:hover {
+    background-color: rgb(167, 157, 157);
+    border: solid 1px black;
+}
+
+.formulario {
+    margin-top: 80px;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nysl_navbar {
+    background-color: rgba(255, 255, 255, 0.9) !important
+}
+
+.contact-info,
+.contact-info a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-info {
+    margin-top: 80px;
+}
+
+img.logo {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px 140px;
+    top: 90px;
+}
+
+.logo-forum {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px 140px;
+    top: 90px;
+}
+
+.eventos {
+    color: #fff;
+    padding: 20px;
+    margin-top: 110px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.upcoming {
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn {
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+.yournumber,
+.yourname,
+.youremail {
+    padding: 5px;
+}
+
+.address {
+    padding: 80px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 85px;
+}
+
+iframe {
+    justify-content: center;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+td a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.icons,
+.icons span,
+.icons a {
+    padding: 20px;
+}
+
+.yourname input,
+.yournumber input,
+.youremail input,
+.text textarea {
+    border-radius: 7px;
+}
+
+.title-forum {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bi,
+.bi-person {
+    color: #fff;
+}
+
+.forms label {
+    padding: 10px;
+}
+
+.send-btn {
+    margin-left: 225px;
+}
+
+.messages {
+    color: #fff;
+    font-weight: bold;
+}
+
+.messages p {
+    border: #fff;
+}
+
+.btn1 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.btn2 {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.login {
+    padding-bottom: 15px;
+    margin-left: 250px;
+    padding: 20px;
+
+}
+
+.forms {
+    padding: 10px;
+}
+
+.signOut {
+    margin-left: 50px;
+}
+
+.forms textarea {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.name {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.btn-comments {
+    margin-bottom: 10px;
+}
+
+.media-body {
+    border-radius: 10px;
+    margin: 15px;
+    border: 1px solid #bfbfbf;
+    padding: 20px;
+    background: url("../img/fond.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.media,
+.yourname {
+    display: inline;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+
+
+}
+
+.media svg {
+    margin-right: 5px;
+}
+
+.media,
+.comment {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.media-body,
+.comment p {
+    word-break: break-all;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chat {
+    margin-top: 15px;
+}
